@@ -4,9 +4,12 @@ import Weather from "./Weather";
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-container">
+        <div className="home-contant">
+        <h1 className="title">Test-Weather-App</h1>
+            {/* <City /> */}
             <Weather />
-            <City />
+            </div>
         </div>
     )
 }
